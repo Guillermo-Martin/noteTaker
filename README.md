@@ -6,17 +6,17 @@ Create an application that can be used to write, save, and delete notes. This ap
 
 * The application frontend has already been created, it's your job to build the backend and connect the two.
 
-* The following HTML routes should be created:
+* X The following HTML routes should be created:
 
-  * GET `/notes` - Should return the `notes.html` file.
+  * X GET `/notes` - Should return the `notes.html` file.
 
-  * GET `*` - Should return the `index.html` file
+  * X GET `*` - Should return the `index.html` file
 
-* The application should have a `db.json` file on the backend that will be used to store and retrieve notes using the `fs` module.
+* X The application should have a `db.json` file on the backend that will be used to store and retrieve notes using the `fs` module.
 
 * The following API routes should be created:
 
-  * GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON.
+  * X ???? GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON.
 
   * POST `/api/notes` - Should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client.
 
