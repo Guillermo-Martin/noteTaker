@@ -11,7 +11,9 @@ const PORT = 3001;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-
+// serving static files (added this to get css and js files to load properly):
+// https://expressjs.com/en/starter/static-files.html
+app.use(express.static('public'));
 
 
 // ========== ROUTES ==========
@@ -32,7 +34,7 @@ app.get("/api/notes", function(req, res){
     res.sendFile(__dirname + "/db/db.json");
 });
 
-// (POST) API Notes route
+// // (POST) API Notes route
 app.post("/api/notes", function(req, res){
     // save the new note to a variable
     // push the new note to db.json
