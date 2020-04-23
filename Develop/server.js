@@ -8,7 +8,8 @@ const uuid = require("uuid/v4");
 
 // Set up the Express app
 const app = express();
-const PORT = 3001;
+var PORT = process.env.PORT || 3001;
+// const PORT = 3001;
 
 // Include body parser for data parsing
 app.use(express.urlencoded({ extended: true }));
@@ -106,7 +107,7 @@ app.delete("/api/notes/:id", function(req, res){
                     let index = currentNotes.findIndex(x => x.id === urlid);
 
                     // let indexOfNote = currentNotes.indexOf(urlid);
-                    console.log("this note will be deleted");
+                    // console.log("this note will be deleted");
 
                     // remove the object with the matching id
                     currentNotes.splice(index, 1);
