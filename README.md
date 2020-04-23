@@ -2,7 +2,7 @@
 
 ## Description
 The following application allows a user to take notes using Express.  When a user
-goes to the following website [Note Taker](https://immense-dusk-60188.herokuapp.com/), the user can click on the "Get Started" button to create, view, edit, save, and delete notes.
+goes to the following website [Note Taker](https://immense-dusk-60188.herokuapp.com/), the user can click on the "Get Started" button to create, view, save, and delete notes.
 
 
 ## Technologies
