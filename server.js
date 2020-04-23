@@ -106,9 +106,6 @@ app.delete("/api/notes/:id", function(req, res){
                     // https://stackoverflow.com/questions/15997879/get-the-index-of-the-object-inside-an-array-matching-a-condition
                     let index = currentNotes.findIndex(x => x.id === urlid);
 
-                    // let indexOfNote = currentNotes.indexOf(urlid);
-                    // console.log("this note will be deleted");
-
                     // remove the object with the matching id
                     currentNotes.splice(index, 1);
 
