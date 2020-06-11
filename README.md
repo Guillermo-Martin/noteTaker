@@ -1,4 +1,4 @@
-# Homework: Note Taker
+# Note Taker
 
 ## Description
 The following application allows a user to take notes using Express.  When a user
